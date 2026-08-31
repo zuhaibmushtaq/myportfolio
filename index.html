@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Zuhaib Mushtaq — QA Engineering portfolio focused on quality, data validation, automation and cloud.">
+  <title>Zuhaib Mushtaq | QA Engineering Portfolio</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home">ZUHAIB<span>.</span></a>
+    <button class="menu-toggle" aria-label="Open navigation">☰</button>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#resume">Resume</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#skills">Technical Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy">
+        <p class="eyebrow">QUALITY ENGINEERING • DATA • AUTOMATION</p>
+        <h1>I'm a <span>QA Engineer</span></h1>
+        <p class="lead">I build confidence in software by combining thoughtful testing, advanced SQL, data validation, automation and CI/CD.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#portfolio">View My Work</a>
+          <a class="btn secondary" href="#contact">Let's Connect</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>QA</strong><small>Testing Strategy</small></div>
+          <div><strong>SQL</strong><small>Data Validation</small></div>
+          <div><strong>PySpark</strong><small>Data Engineering</small></div>
+          <div><strong>CI/CD</strong><small>Quality Gates</small></div>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="terminal">
+          <div class="terminal-head"><span></span><span></span><span></span><b>qa-engineer.sh</b></div>
+          <pre><code>$ quality --mindset
+✓ understand the requirement
+✓ identify risk
+✓ test the data
+✓ automate what matters
+✓ prevent regressions
+✓ ship with confidence
+
+$ status
+QUALITY: <em>READY</em></code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section split">
+      <div>
+        <p class="eyebrow">ABOUT</p>
+        <h2>Quality is more than finding bugs.</h2>
+      </div>
+      <div class="content">
+        <p class="big">I approach QA as an engineering discipline: understand the system, challenge assumptions, validate data, automate repeatable checks and make quality visible throughout delivery.</p>
+        <p>My development path is centered on becoming a stronger QA professional through advanced SQL, Databricks, PySpark and Azure CI/CD, while continuing to deepen automation and testing strategy.</p>
+        <div class="facts">
+          <div><span>Focus</span><strong>Quality Engineering</strong></div>
+          <div><span>Data</span><strong>SQL • Databricks • PySpark</strong></div>
+          <div><span>Delivery</span><strong>Azure • CI/CD</strong></div>
+          <div><span>Mindset</span><strong>Risk-based & evidence-driven</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume" class="section resume">
+      <div class="section-heading">
+        <p class="eyebrow">RESUME</p>
+        <h2>Experience & direction</h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <span class="date">CURRENT FOCUS</span>
+          <h3>QA Engineering Growth</h3>
+          <p>Building deeper capability across Databricks, advanced SQL, PySpark and Azure CI/CD while strengthening automation, data-quality and test strategy skills.</p>
+        </article>
+        <article class="timeline-item">
+          <span class="date">QA PRACTICE</span>
+          <h3>Functional, Regression & Data Validation</h3>
+          <p>Designing test coverage from requirements, validating downstream data, investigating defects and creating reliable evidence for release decisions.</p>
+        </article>
+        <article class="timeline-item">
+          <span class="date">ENGINEERING MINDSET</span>
+          <h3>From Test Execution to Quality Ownership</h3>
+          <p>Moving beyond execution toward prevention: better requirements, stronger test design, automation, observability and CI quality gates.</p>
+        </article>
+      </div>
+      <a class="text-link" href="#" onclick="downloadResume(event)">Download Resume PDF →</a>
+      <p class="muted resume-note">Replace <code>resume.pdf</code> in the root folder with your actual CV.</p>
+    </section>
+
+    <section id="portfolio" class="section portfolio">
+      <div class="section-heading">
+        <p class="eyebrow">PORTFOLIO</p>
+        <h2>Selected QA case studies</h2>
+        <p>Projects are presented around the problem, validation approach and engineering value — not just a list of tools.</p>
+      </div>
+      <div class="filters">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="data">Data</button>
+        <button class="filter" data-filter="sql">SQL</button>
+        <button class="filter" data-filter="automation">Automation</button>
+        <button class="filter" data-filter="cicd">CI/CD</button>
+      </div>
+      <div class="project-grid">
+        <article class="project" data-tags="data sql">
+          <span class="project-num">01</span>
+          <h3>EV Balloon — BIX Data Validation</h3>
+          <p>Validation strategy for fuel-type data flowing through BIX files and downstream semantic models.</p>
+          <div class="tags"><span>SQL</span><span>BIX</span><span>Data QA</span></div>
+          <a href="#contact">Case study →</a>
+        </article>
+        <article class="project" data-tags="sql data">
+          <span class="project-num">02</span>
+          <h3>SQL Quality Lab</h3>
+          <p>A practical collection of joins, subqueries, aggregates, window functions and data-quality checks designed for QA validation.</p>
+          <div class="tags"><span>Advanced SQL</span><span>Data Quality</span></div>
+          <a href="#contact">View project →</a>
+        </article>
+        <article class="project" data-tags="data">
+          <span class="project-num">03</span>
+          <h3>Databricks QA Playground</h3>
+          <p>Hands-on validation patterns for ingestion, schema evolution, transformations and analytical datasets.</p>
+          <div class="tags"><span>Databricks</span><span>PySpark</span></div>
+          <a href="#contact">View project →</a>
+        </article>
+        <article class="project" data-tags="automation cicd">
+          <span class="project-num">04</span>
+          <h3>Automation & CI Quality Gates</h3>
+          <p>Example pipeline design connecting automated tests with pull requests, build validation and deployment gates.</p>
+          <div class="tags"><span>Automation</span><span>Azure</span><span>CI/CD</span></div>
+          <a href="#contact">View project →</a>
+        </article>
+        <article class="project" data-tags="automation">
+          <span class="project-num">05</span>
+          <h3>API Testing Framework</h3>
+          <p>Reusable API test scenarios covering happy paths, negative paths, boundary conditions and response-data validation.</p>
+          <div class="tags"><span>API</span><span>Automation</span></div>
+          <a href="#contact">View project →</a>
+        </article>
+        <article class="project" data-tags="data sql automation">
+          <span class="project-num">06</span>
+          <h3>ETL / Data Reconciliation</h3>
+          <p>Source-to-target checks for completeness, accuracy, duplicates, transformations and business-rule consistency.</p>
+          <div class="tags"><span>ETL</span><span>SQL</span><span>Python</span></div>
+          <a href="#contact">View project →</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <div class="section-heading">
+        <p class="eyebrow">TECHNICAL SKILLS</p>
+        <h2>My QA toolkit</h2>
+      </div>
+      <div class="skill-columns">
+        <div class="skill-card"><h3>Testing</h3><p>Functional • Regression • Integration • API • Exploratory • Smoke • UAT • Data Validation • ETL Testing</p></div>
+        <div class="skill-card"><h3>Data</h3><p>Advanced SQL • Databricks • PySpark • Data Quality • Reconciliation • Source-to-Target Validation</p></div>
+        <div class="skill-card"><h3>Automation</h3><p>UI Automation • API Automation • Python • Test Framework Design • Regression Automation</p></div>
+        <div class="skill-card"><h3>Cloud & DevOps</h3><p>Azure • CI/CD • Git • Pull Requests • Quality Gates • Deployment Validation</p></div>
+        <div class="skill-card"><h3>QA Practices</h3><p>Test Planning • Risk-based Testing • Traceability • Defect Analysis • Root Cause Analysis • Release Sign-off</p></div>
+        <div class="skill-card"><h3>Professional Growth</h3><p>Technical Communication • Problem Solving • Typing Speed • Rubik's Cube • Continuous Learning</p></div>
+      </div>
+    </section>
+
+    <section class="section quote-section">
+      <blockquote>“Quality is not a phase at the end of delivery. It is a way of engineering the product.”</blockquote>
+      <p>My goal is simple: make defects cheaper to prevent, easier to detect and harder to repeat.</p>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="section-heading">
+        <p class="eyebrow">CONTACT</p>
+        <h2>Let's talk about quality.</h2>
+        <p>Replace the placeholders below with your real contact details before publishing.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <a href="mailto:your.email@example.com"><span>Email</span>your.email@example.com</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><span>LinkedIn</span>linkedin.com/in/your-profile</a>
+          <a href="https://github.com/" target="_blank" rel="noreferrer"><span>GitHub</span>github.com/your-username</a>
+        </div>
+        <form id="contactForm">
+          <input name="name" placeholder="Your Name" required>
+          <input name="email" type="email" placeholder="Your Email" required>
+          <input name="subject" placeholder="Subject" required>
+          <textarea name="message" rows="6" placeholder="Message" required></textarea>
+          <button class="btn primary" type="submit">Send Message</button>
+          <p id="formStatus" class="muted"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Zuhaib Mushtaq</span>
+    <span>Built with HTML, CSS & JavaScript</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
